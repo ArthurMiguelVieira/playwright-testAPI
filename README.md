@@ -40,12 +40,4 @@
 - Configuração de ambiente separada
 
 ## Execução 
-
-# Todos os testes
-npm test
-
-# Testes com autenticação
-npm run test:auth
-
-# Testes em modo UI
-npm run test:ui
+- npm playwright test 'workingWithAPI.spec.ts' --project=chromium --ui
